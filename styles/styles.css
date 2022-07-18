@@ -1,0 +1,58 @@
+:root {
+	/*custom properties*/
+	--white: #ffffff;
+	--black: #000000;
+	--darkblue: #0081A7;
+	--cian: #00AFB9;
+	--sand: #FDFCDC;
+	--sienna:#FED9B7;
+	--coral: #F07167;
+	--tittle: 3.8rem;
+	--subtitle: 3rem;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: var(--tittle);
+}
+
+h1 span {
+	font-size: 1.6rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 120rem;
+}
+
+.main-nav {
+	margin: auto;
+}
+
+.main-nav a {
+	display: inline-block;
+	color: var(--white);
+	padding: 1rem;
+	margin-right: 12rem;
+}
+
+.main-nav a:hover {
+	background: var(--sand);
+	color: var(--black);
+}
+
+.nav-bg {
+	background: var(--darkblue);
+}
